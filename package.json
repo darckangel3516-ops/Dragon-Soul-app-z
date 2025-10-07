@@ -1,29 +1,16 @@
 {
-  "name": "packs-starter",
+  "name": "dragon_soul_app",
   "version": "1.0.0",
-  "description": "A starter project template for creating a Coda Pack.",
+  "description": "Dragon Soul Game for Android",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "npx patch-package",
-    "test": "mocha --require ts-node/register test/*.ts",
-    "validate": "coda validate pack.ts",
-    "upload": "coda upload pack.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT",
   "dependencies": {
-    "@codahq/packs-sdk": "1.8.6"
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "@types/chai": "4.3.20",
-    "@types/chai-as-promised": "7.1.8",
-    "@types/mocha": "10.0.6",
-    "@types/node": "20.11.25",
-    "@types/sinon": "17.0.3",
-    "chai": "4.5.0",
-    "chai-as-promised": "7.1.1",
-    "mocha": "10.3.0",
-    "patch-package": "8.0.0",
-    "sinon": "17.0.1",
-    "ts-node": "10.9.2",
-    "typescript": "5.4.2"
+    "@capacitor/cli": "latest"
   }
 }
